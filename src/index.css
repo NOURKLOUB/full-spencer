@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+:root {
+  --body: #000;
+  --color: #fff;
+  --continer: rgb(24, 24, 27);
+  --conect: rgb(51, 51, 56);
+  --borderfull:red;
+  --border:rgba(125, 134, 146, 0.362);
+  --nav:rgb(37,37,41);
+  --p:rgb(149,149,158);
+}
+
+.light {
+  --body: #fff;
+  --color: #000;
+  --continer: rgb(236, 236, 238);
+  --conect: rgb(4, 4, 4);
+  --border:rgb(15, 15, 16);
+  --p:#070606;
+  --nav: rgb(236, 236, 238);
+}
+
+body {
+  background-color: var(--body);
+  color: var(--color);
+}
+.top{
+  margin-right: -19px;
+  text-align: center;
+  transition: all .4s ease-in-out;
+}
+.border {
+  border: 1px solid var(--borderfull);
+}
+
+.continer {
+  width: 90%;
+  margin: auto;
+  background-color: var(--continer);
+  border: 0.1px solid var(--conect);
+}
+.print {
+  border-bottom: 0.1px solid var(--border);
+  margin: 3rem 0;
+}
+button{
+  all: unset;
+}
+@media (max-width: 500px) {
+ .continer{
+  width: 100%;
+  margin: auto;
+  background-color: var(--continer);
+  border: 0.1px solid var(--conect);
+ }
+}

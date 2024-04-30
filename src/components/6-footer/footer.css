@@ -1,0 +1,19 @@
+.the-end{
+   width: 90%;
+   margin: auto;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.the-end p{
+    color: var(--p);
+}
+@media (max-width: 500px) {
+    .the-end{
+         flex-direction: column;
+         gap: 90px;
+     }
+   }
+   

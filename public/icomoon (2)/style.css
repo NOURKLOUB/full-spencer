@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cf3qty');
+  src:  url('fonts/icomoon.eot?cf3qty#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cf3qty') format('truetype'),
+    url('fonts/icomoon.woff?cf3qty') format('woff'),
+    url('fonts/icomoon.svg?cf3qty#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-infinity:before {
+  content: "\e904";
+}
+.icon-suitcase:before {
+  content: "\e902";
+}
+.icon-x:before {
+  content: "\e900";
+}
+.icon-atom:before {
+  content: "\e901";
+}
+.icon-envelope:before {
+  content: "\e028";
+}
+.icon-forward:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\1f31e";
+}
+.icon-menu:before {
+  content: "\1f31e";
+}
+.icon-webpack:before {
+  content: "\e903";
+  color: #8dd6f9;
+}

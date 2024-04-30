@@ -1,0 +1,99 @@
+.sudmite {
+  width: 88%;
+  margin: auto;
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  gap: 1rem;
+}
+.byit-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 1rem 0.4rem;
+}
+.byit-1 button {
+  padding: 0.9rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: var(--continer);
+  color: var(--color);
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  border-radius: 10px;
+
+}
+.byit-1 button.active {
+  border: 1px solid rgb(3, 140, 232);
+  background-color: rgba(15, 74, 143, 0.718);
+  transition: all 0.1s ease-in-out;
+}
+.sub-title-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.card {
+  cursor: pointer;
+  background-color: rgba(22, 97, 168, 0.08);
+  border: 1px solid rgb(3, 140, 232);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  rotate: 1deg;
+  scale: 1.01;
+}
+.clidrerm {
+  padding: 10px;
+}
+.clidrerm h1 {
+  font-size: 17px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: var(--color);
+  margin-bottom: 5px;
+}
+.clidrerm p {
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: var(--p);
+  margin-bottom: 5px;
+}
+
+.card-9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.proparty span.icon-infinity {
+  color: cadetblue;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.proparty span.icon-atom {
+  color: cadetblue;
+  font-size: 20px;
+  padding-right: 5px;
+}
+.facewrite p {
+  color: cadetblue;
+}
+@media (max-width: 500px) {
+  .sudmite {
+   flex-direction: column;
+   align-items: center;
+  }
+  .byit-1{
+    flex-wrap: wrap;
+  }
+.sub-title-2{
+  margin-left: 88px;
+}
+ }
+ 

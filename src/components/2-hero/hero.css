@@ -1,0 +1,57 @@
+section{
+    width: 88%;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 15px;
+}
+section .perant-avatar{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 20px;
+
+}
+section .perant-avatar img{
+    width: 88px;
+    border-radius: 50%;
+    border: 1px solid #d47318;
+    padding:3px;
+    box-shadow: 2px 2px 40px rgba(3, 168, 233, 0.428) inset;
+    cursor: pointer;
+}
+section .perant-avatar span.icon-atom{
+    color: rgb(6, 178, 240);
+    font-size: 23px;
+    cursor: pointer;
+}
+section h1{
+    max-width: 400px;
+    color: var(--color);
+    text-transform: capitalize;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+section p{
+    max-width: 680px;
+    color: var(--p);
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+section p::selection{
+   color: rgb(241, 246, 246);
+   background-color: darkslategray;
+}
+section .hero-1 img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 13px;
+    opacity: 0.5;
+    transition:all .2s ease-in-out;
+}
+section .hero-1 img:hover{
+    opacity: 5;
+}

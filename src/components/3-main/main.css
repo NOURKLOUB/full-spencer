@@ -1,0 +1,13 @@
+.total{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total img{
+   padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
